@@ -100,10 +100,15 @@ header {
 /*--------------------------------------------------------------
 # MAIN -ANITA
 --------------------------------------------------------------*/
+.section-title h2 {
+  font-size: 32px;
+  font-weight: 700;
+  margin-bottom: 20px;
+  padding-bottom: 0;
+  z-index: 2;}
 .img-1{
-    height: 5.6rem;
-    width: 10rem;
-
+    height: 7.6rem;
+    width: 14rem;
 }
 
 
