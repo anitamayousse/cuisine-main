@@ -46,11 +46,17 @@ main a {
   font-weight: bold;
   margin-right: 9px;
 }
-.img-team {
+.img-team-1 {
   border-radius: 50%;
-  height: 25vh;
+  height: 12vh;
   width: auto;
   align-items: center;
+
+}
+
+.img-logo-black{
+  width: 60%;
+  height: auto;
 }
 /*--------------------------------------------------------------
 # VOS RECETTES
