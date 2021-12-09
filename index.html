@@ -24,51 +24,67 @@
 </head>
 
 <body>
-    <!-- CHI - HEADER -->
-    <header id="page-top" class="intro route bg-image" style="background-image: url(img/header.jpg)">
-      <!--/ Début du bloc de Navigation /-->
-      <nav class="navbar navbar-b navbar-trans navbar-expand-md fixed-top" id="mainNav">
-          <!-- Le bloc principal CONTAINER -->
-          <div class="container">
-              <!-- Le bouton retour Haut de page -->
-              <h3 class="navbar-brand js-scroll" href="#page-top"> Cui'zine </h3>
-              
-              <!-- Le bloc des différents Items du menu -->
-              <div class="navbar-collapse collapse justify-content-end" id="navbarDefault">
-                  <ul class="navbar-nav"> 
-                      <li class="nav-item">
-                          <a class="nav-link js-scroll" href="#acceuil">Acceuil</a>
-                      </li>
-                      <li class="nav-item">
-                          <a class="nav-link js-scroll" href="tea.html">Équipe</a>
-                      </li>
-                      <li class="nav-item">
-                          <a class="nav-link js-scroll" href="#blog">Blog</a>
-                      </li>
-                      <li class="nav-item">
-                          <a class="nav-link js-scroll" href="contact.html">Contact</a>
-                      </li>
-                  </ul> 
-              </div> 
-          </div> 
-      </nav> <!-- Fin du bloc DIV NavBar -->
-     
-      <!--/ Le bloc affichage de l'image de fond de page  /-->
-      <!-- Dans background-image vous pouvez mettre votre photo -->
-      <div id="acceuil">
-          <div class="overlay-itro"></div> 
-              <div class="intro-content display-table">
-                  <div class="table-cell">
-                      <div class="container">
-                        <img class="logo_square_white mb-4" src="./img/logo_square_white.png" alt="">
-                          <h4 class="intro-title mb-4">Cui'zine</h4>
-                          <h3 class="intro-subtitle mb-4"> Le mag cuisine</h3> 
-                      </div>
-                  </div>  
-              </div>  
+   <!-- CHI - HEADER -->
+   <header
+   id="page-top"
+   class="intro route bg-image"
+   style="background-image: url(img/header.jpg)"
+  >
+    <!--/ Début du bloc de Navigation /-->
+    <nav
+      class="navbar navbar-b navbar-trans navbar-expand-md sticky-top"
+      id="mainNav"
+    >
+      <!-- Le bloc principal CONTAINER -->
+      <div class="container">
+        <!-- Le bouton retour Haut de page -->
+        <h3 class="navbar-brand js-scroll" href="#page-top">Cui'zine</h3>
+
+        <!-- Le bloc des différents Items du menu -->
+        <div
+          class="navbar-collapse collapse justify-content-end"
+          id="navbarDefault"
+        >
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link js-scroll" href="#acceuil">Acceuil</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll" href="#equipe">Équipe</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll" href="#blog">Blog</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll" href="#contact">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Fin du bloc DIV NavBar -->
+
+    <!--/ Le bloc affichage du contenue /-->
+    <div id="acceuil">
+      <div class="overlay-itro">
+        <div class="intro-content display-table">
+          <div class="table-cell">
+            <div class="container">
+              <img
+                class="logo_square_white"
+                src="./img/logo_square_white.png"
+                alt=""
+              />
+              <h4 class="intro-title mb-4">Cui'zine</h4>
+              <h3 class="intro-subtitle mb-4">Le mag cuisine</h3>
+            </div>
           </div>
-      </div> <!-- Fin DIV id ACCEUIL -->      
-    </header>
+        </div>
+      </div>
+    </div>
+    <!-- Fin DIV id ACCEUIL -->
+  </header>
 
     <!-- ANITA - MAIN BODY -->
     <main style="background-color: white;">
@@ -128,61 +144,67 @@
           </div>
         </div>
     </main>
+
     <!-- CHI - FOOTER -->
     <footer>
-        <div class="container">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12"></div>
           <div class="row">
-            <div class="col-sm-12"></div>
-              <div class="row">
-                <div class="col-xl-4">
-                  <div class="text-white">
-                    <ul>
-                      <h5 class="footer-title">Catégories</h5>
-                      <div class="row">
-                        <a href="#">Revues</a>
-                        <a href="#">Recettes</a>
-                        <a href="#">Découverts</a>
-                      </div>
-                      
-                    </ul>
+            <div class="col-xl-4">
+              <div class="text-white">
+                <ul>
+                  <h5 class="footer-title">Catégories</h5>
+                  <div class="row">
+                    <a href="#">Revues</a>
+                    <a href="#">Recettes</a>
+                    <a href="#">Découverts</a>
                   </div>
-                </div>
-  
-                <div class="col-xl-4">
-                  <div class="text-white">
-                    <ul>
-                      <h6 class="footer-title">Archives</h6>
-                      <div class="row">
-                        <a href="#">2019</a>
-                        <a href="#">2018</a>
-                        <a href="#">2017</a>
-                      </div>
-                    </ul>
-                  </div>
-                </div>
-  
-                <div class="col-xl-4">
-                  <div class="text-white">
-                    <ul>
-                      <h5 class="footer-title">Newsletter</h5>
-                      <div>
-                        <input type="email" placeholder="Email...">
-                        <button type="button" class="btn btn-dark btn-outline-light">S'incrire</button>
-                      </div>
-                      <div>
-                        <h5 class="footer-title">Partager</h5>
-                        <i class="fab fa-facebook-square"></i>
-                        <i class="fab fa-instagram-square"></i>
-                        <i class="fab fa-youtube-square"></i>
-                        <i class="fab fa-twitter-square"></i>
-                      </div>
-                    </ul>
-                  </div>
-                </div>
+                </ul>
               </div>
+            </div>
+
+            <div class="col-xl-4">
+              <div class="text-white">
+                <ul>
+                  <h6 class="footer-title">Archives</h6>
+                  <div class="row">
+                    <a href="#">2019</a>
+                    <a href="#">2018</a>
+                    <a href="#">2017</a>
+                  </div>
+                </ul>
+              </div>
+            </div>
+
+            <div class="col-xl-4">
+              <div class="text-white">
+                <ul>
+                  <h5 class="footer-title">Newsletter</h5>
+                  <div>
+                    <input type="email" placeholder="Email..." />
+                    <button
+                      type="button"
+                      class="btn btn-dark btn-outline-light"
+                    >
+                      S'incrire
+                    </button>
+                  </div>
+                  <div>
+                    <h5 class="footer-title">Partager</h5>
+                    <i class="fab fa-facebook-square"></i>
+                    <i class="fab fa-instagram-square"></i>
+                    <i class="fab fa-youtube-square"></i>
+                    <i class="fab fa-twitter-square"></i>
+                  </div>
+                </ul>
+              </div>
+            </div>
           </div>
         </div>
+      </div>
     </footer>
 
     <script src="/lib/js/bootstrap.js"></script>
 </body>
+</html>
