@@ -38,12 +38,20 @@ main a {
 /*--------------------------------------------------------------
 # VOS ARTICLES
 --------------------------------------------------------------*/
-
+.main-article{
+  margin: auto;
+  padding: 5%;
+}
+.main-paragraphe-art{
+  font-family: 'Oswald', sans-serif;
+  color:gray;
+  font-size:x-small;
+}
 .first-letter{
   float: left;
-  font-size: 45px;
+  font-size: 40px;
   line-height: 1;
-  font-weight: bold;
+  font-weight: bolder;
   margin-right: 9px;
 }
 .img-team-1 {
@@ -53,10 +61,24 @@ main a {
   align-items: center;
 
 }
-
+.team-border {
+  border-top: 1px solid rgb(189, 189, 189);
+  margin-bottom: 25px;
+  padding-bottom: 25px;
+  border-bottom: 1px solid rgb(189, 189, 189);
+}
+.comment{
+  margin-bottom: 15px;
+  padding-bottom: 15px;
+}
 .img-logo-black{
   width: 60%;
   height: auto;
+}
+.img-logo-gray{
+  width: 60%;
+  height: auto;
+  background-color: darkgrey;
 }
 /*--------------------------------------------------------------
 # VOS RECETTES
