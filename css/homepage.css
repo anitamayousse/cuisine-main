@@ -5,16 +5,19 @@ body {
   color: #4e4e4e;
 }
 
-
 /*--------------------------------------------------------------
 # MAIN -ANITA
 --------------------------------------------------------------*/
+.main {
+  margin: auto;
+  padding: 5%;
+}
 .main-h5 {
   text-align: center;
   font-family:'Oswald', sans-serif;
   font-weight:400;}
 .img-1{
-    height: 20vh;
+    height: 15vh;
     width: auto;
 }
 .main-title {  
