@@ -18,6 +18,8 @@
   <!-- Main Stylesheet File -->
   <link rel="stylesheet" href="css/homepage.css">
   <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/team.css">
+  <link rel="stylesheet" href="css/contact.css">
   
 </head>
 
@@ -38,13 +40,13 @@
                           <a class="nav-link js-scroll" href="#acceuil">Acceuil</a>
                       </li>
                       <li class="nav-item">
-                          <a class="nav-link js-scroll" href="#equipe">Équipe</a>
+                          <a class="nav-link js-scroll" href="tea.html">Équipe</a>
                       </li>
                       <li class="nav-item">
                           <a class="nav-link js-scroll" href="#blog">Blog</a>
                       </li>
                       <li class="nav-item">
-                          <a class="nav-link js-scroll" href="#contact">Contact</a>
+                          <a class="nav-link js-scroll" href="contact.html">Contact</a>
                       </li>
                   </ul> 
               </div> 
@@ -69,57 +71,59 @@
     </header>
 
     <!-- ANITA - MAIN BODY -->
-    <main>
+    <main style="background-color: white;">
         <div class="container">
-          <h2>djkschds</h2>
+          <h5 class="main-h5">Derniers articles</h5>
           <div class="row">
-            <div class="col-lg-8 order-1 order-lg-1 bg-warning">
+            <div class="col-lg-8 order-1 order-lg-1 gy-4">
               <div class="row">
-                <div class="col-lg-4 bg-success">
+                <div class="col-lg-4 gy-4">
                 <img src="/img/articles/suzette/suzette-small.jpg" class="img-1">
                 </div>
-                <div class="col-lg-8 bg-danger">
-                <h5>Chez Suzette, la nouvelle crêperie qui fait parler d'elle</h5>
-                <p>La franchise "Chez Suzette" qui fait un carton chez les bretons ouvre son premier restaurant à Paris dans le quartier latin. Antoine de Cui'zine a testé pour vous les saveurs sucrées, salées au froment ou au sarrazin!</p>
+                <div class="col-lg-8 gy-4">
+                <h6 class="main-title">Chez Suzette, la nouvelle crêperie qui fait parler d'elle</h6>
+                <p class="main-paragraphe">La franchise "Chez Suzette" qui fait un carton chez les bretons ouvre son premier restaurant à Paris dans le quartier latin. Antoine de Cui'zine a testé pour vous les saveurs sucrées, salées au froment ou au sarrazin!</p>
                 </div>
               </div>
             <div class="row">
-              <div class="col-lg-4 bg-success">
+              <div class="col-lg-4 gy-4">
               <img src="/img/articles/metro/metro-small.jpg" class="img-1">
               </div>
-              <div class="col-lg-8 bg-danger">
-              <h5>Chez Suzette, la nouvelle crêperie qui fait parler d'elle</h5>
-              <p>La franchise "Chez Suzette" qui fait un carton chez les bretons ouvre son premier restaurant à Paris dans le quartier latin. Antoine de Cui'zine a testé pour vous les saveurs sucrées, salées au froment ou au sarrazin!</p>
+              <div class="col-lg-8 gy-4">
+              <h6 class="main-title">Le Métro dessert</h6>
+              <p class="main-paragraphe">Germain est ferrovipathe (ndlr: fan de train), son fils Maxime est pâtissier. Ils ont décidé de réunir leur deux passions dans un restaurant à la déco inspiré du métro parisien. A voir absolument, mais qu'en est-il d'y aller pour manger ? Clémentine entre en gare et nous donne son avis</p>
               </div>
             </div>
             <div class="row">
-              <div class="col-lg-4 bg-success">
-              <img src="img/articles/vitaly/vitaly-small.jpg" class="img-1">
+              <div class="col-lg-4 gy-4">
+              <img src="img/articles/vitaly/vitaly-small.jpg" class="img-1 img-fluid">
               </div>
-              <div class="col-lg-8 bg-danger">
-              <h5>Chez Suzette, la nouvelle crêperie qui fait parler d'elle</h5>
-              <p>La franchise "Chez Suzette" qui fait un carton chez les bretons ouvre son premier restaurant à Paris dans le quartier latin. Antoine de Cui'zine a testé pour vous les saveurs sucrées, salées au froment ou au sarrazin!</p>
+              <div class="col-lg-8 gy-4">
+              <h6 class="main-title">Vitaly, le végan italien</h6>
+              <p class="main-paragraphe">Quand on pense italien, on pense lasagne et jambon de Parme. Ils l'ont fait, les saveurs de l'Italie à portée des herbivores. Cette fois, c'est moi Tony qui vais le tester pour vous.</p>
               </div>
             </div>
           </div>
-            <div class="col-lg-4 order-2 order-lg-2 bg-warning">
+            <div class="col-lg-4 order-2 order-lg-2 gy-5">
               <form>
-                <div class="mb-3">
-                  <label for="exampleInputRecherche" class="form-label">Recherche</label>
+                <div class="mb-3 mx-auto d-grid  col-10 ">
+                  <label for="exampleInputRecherche" class="form-label footer-title">Recherche</label>
                   <input type="search" class="form-control" id="exampleInputRecherche" aria-describedby="emailHelp" placeholder="Recherche..">
-                  <button type="submit" class="btn btn-primary">OK</button>
+                  <button type="submit" class="btn btn-outline-dark">OK</button>
                 </div>
-                <div class="mb-3">
-                  <label for="exampleInputemail" class="form-label">Newsletter</label>
-                  <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Email..">
-                  <button type="submit" class="btn btn-primary">S'inscrire</button>
+                <div class="mb-3 mx-auto d-grid col-10">
+                  <label for="exampleInputemail" class="form-label footer-title">Newsletter</label>
+                  <input type="email" class="form-control" id="exampleInputPassword1" placeholder="Email..">
+                  <button type="submit" class="btn btn-outline-dark">S'inscrire</button>
                 </div>
               </form>
+              <div class="mb-3 mx-auto col-10">
               <h5 class="footer-title">Partager</h5>
               <i class="fab fa-facebook-square"></i>
               <i class="fab fa-instagram-square"></i>
               <i class="fab fa-youtube-square"></i>
               <i class="fab fa-twitter-square"></i>
+              </div>
             </div>
           </div>
         </div>
