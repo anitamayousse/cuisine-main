@@ -1,0 +1,22 @@
+.background-recettes {
+    background-image: url('../img/recipes/paella/paella-header.jpg');
+    background-position: center;
+    background-size:cover;
+}
+
+.background-recettes nav,
+.background-recettes header{
+    background-color: rgb(0 0 0 / 80%);
+}
+
+/*--------------------------------------------------------------
+# VOS RECETTES
+--------------------------------------------------------------*/
+
+.time {
+    background-color: rgb(211, 209, 209);
+  }
+  button {
+    font-family: "Oswald", sans-serif;
+  }
+  
